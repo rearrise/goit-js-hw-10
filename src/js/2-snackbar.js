@@ -16,7 +16,7 @@ form.addEventListener('submit', event => {
       } else {
         reject(delay);
       }
-    }, 2000);
+    }, delay);
   });
 
   promise
